@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body .container .row div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .row div ul li {
+  list-style-type: none;
+}
+
+body .container .row div ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  opacity: 0.5;
+}
+
+body .container .row div .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .row div .img-div:hover {
+  cursor: pointer;
+}
+
+body .container .row div .img-div img {
+  width: 300px;
+  height: 400px;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
